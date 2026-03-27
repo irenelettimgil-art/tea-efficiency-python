@@ -1,0 +1,51 @@
+=== REGRESSION RESULTS ===
+                            OLS Regression Results
+==============================================================================
+Dep. Variable:             log_output   R-squared:                       0.980
+Model:                            OLS   Adj. R-squared:                  0.977
+Method:                 Least Squares   F-statistic:                     264.8
+Date:                Fri, 27 Mar 2026   Prob (F-statistic):           7.64e-14
+Time:                        11:53:23   Log-Likelihood:                 48.098
+No. Observations:                  20   AIC:                            -88.20
+Df Residuals:                      16   BIC:                            -84.21
+Df Model:                           3
+Covariance Type:            nonrobust
+==================================================================================
+                     coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------
+const              4.1855      0.503      8.321      0.000       3.119       5.252
+log_land           0.7267      0.208      3.501      0.003       0.287       1.167
+log_labor          0.0840      0.264      0.318      0.755      -0.476       0.644
+log_fertilizer    -0.0779      0.312     -0.249      0.806      -0.740       0.584
+==============================================================================
+Omnibus:                        4.416   Durbin-Watson:                   1.762
+Prob(Omnibus):                  0.110   Jarque-Bera (JB):                1.527
+Skew:                          -0.166   Prob(JB):                        0.466
+Kurtosis:                       1.688   Cond. No.                         535.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+=== EFFICIENCY RESULTS ===
+    output  efficiency
+0      120    0.978400
+1      135    0.960156
+2      150    1.017534
+3      160    1.016545
+4      170    0.977349
+5      180    0.996357
+6      140    0.975575
+7      155    1.025490
+8      165    1.024306
+9      175    1.027027
+10     130    0.972570
+11     145    1.031278
+12     158    1.022675
+13     168    1.024750
+14     178    1.004930
+15     182    0.988295
+16     190    0.996280
+17     200    0.973235
+18     210    0.994773
+19     220    0.997240
